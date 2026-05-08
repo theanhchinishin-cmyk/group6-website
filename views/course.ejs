@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Khóa học </title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <style>
+    main{
+      display: flex;
+    }
+    img{
+      width: 280px;
+     height: 280px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+    .box{
+      cursor: pointer;
+      margin-left: 50px;
+      width: 280px;
+      /* border: 1px solid black; */
+      border-radius: 30px;
+      overflow: hidden;
+    }
+    p{
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <%- include('./0_header'); %>
+  
+  <main>
+    <div class="box">
+      <img src="/vatlydaicuong.jpg" alt="img">
+      <p> Khóa luyện thi lý đại cương 1</p>
+    </div>
+    <div class="box">
+      <img src="/giaitich1.jpg" alt="img">
+      <p> Khóa luyện thi giải tích 1</p>
+    </div>
+    <div class="box">
+      <img src="/giaitich2.jpg" alt="img">
+      <p> Khóa luyện thi giải tích 2</p>
+    </div>
+    <div class="box">
+      <img src="/giaitich3.jpg" alt="img">
+      <p> Khóa luyện thi giải tích 3</p>
+    </div>
+    <div class="box">
+      <img src="/xacsuatthongke.jpg" alt="img">
+      <p> Khóa luyện thi xác suất thống kê</p>
+    </div>
+  </main>
+
+  <%- include('./0_footer'); %>
+</body>
+</html>

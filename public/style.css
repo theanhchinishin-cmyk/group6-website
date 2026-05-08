@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Poppins", sans-serif;
+  
+}
+body{
+  background-color: #DDE0E9;
+}
+header{
+  position: fixed;
+  background-color: #7894EA;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 1rem 1rem;
+  align-items: center;
+  height: 5%;
+}
+header >div >div{
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+header >div {
+  position: absolute;
+  display: flex;
+  top: 0;
+  flex-direction: row;
+  align-items: center;
+  right: 4rem;
+}
+
+header >div >div >a {
+  color: white;
+  margin-right: 2rem;
+}
+
+main {
+  width: 100%;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.hp {
+  display: flex;
+  margin-left: 2.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.part1 {
+  width: 20rem;
+  height: 20rem;
+  margin-right: 20rem;
+}
+
+img {
+  width: auto;
+  height: 20rem;
+}
+
+.part2 {
+  width: 20rem;
+  height: 20rem;
+}
+
+.part2 > h2 {
+  margin-top: 5rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 6%;
+  width: 100%;
+  background-color: #7894EA;
+  text-align: center;
+}
+
+footer >p {
+  color: white;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 30px;
+}
+header >div >div:hover{
+  background-color: white;
+  cursor: pointer;
+}
+header >div >div:hover >a{
+  color:#7894EA;
+}
