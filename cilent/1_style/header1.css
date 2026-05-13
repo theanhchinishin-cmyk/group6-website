@@ -97,6 +97,9 @@ ul.list-menu > li{
 .list-menu >li >ul >li{
     text-align: center;
     cursor: pointer;
+    height: 4rem;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .list-menu >li >ul >li:hover{
