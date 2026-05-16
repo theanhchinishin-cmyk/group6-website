@@ -10,9 +10,9 @@ const app = express();
 app.use(cors());
 app.use(express.json()); //Tạo API /register Bước 2
 
-// Cho phép Express truy cập vào thư mục 'public' để lấy CSS/JS
-app.use(express.static(path.join(__dirname, 'cilent')));
-app.use(express.static('cilent'));
+// // Cho phép Express truy cập vào thư mục 'public' để lấy CSS/JS
+// app.use(express.static(path.join(__dirname, 'cilent')));
+app.use(express.static('public'));
 
 // KẾT NỐI DATABASE
 const db = mysql.createConnection({
@@ -155,3 +155,5 @@ app.post("/login", (req, res) => {
     res.json({ message: "Đăng nhập thành công 🎉", user: user });
   });
 });
+
+
